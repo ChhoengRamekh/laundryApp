@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EF61A82231567B700E140CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF61A81231567B700E140CE /* AppDelegate.swift */; };
+		4EF61A84231567B700E140CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF61A83231567B700E140CE /* ViewController.swift */; };
+		4EF61A8A231567B700E140CE /* LaundryBookingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EF61A88231567B700E140CE /* LaundryBookingApp.xcdatamodeld */; };
+		4EF61A8C231567B800E140CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF61A8B231567B800E140CE /* Assets.xcassets */; };
+		4EF61A8F231567B800E140CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF61A8D231567B800E140CE /* LaunchScreen.storyboard */; };
+		4EF61A9A231567B800E140CE /* LaundryBookingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF61A99231567B800E140CE /* LaundryBookingAppTests.swift */; };
+		4EF61AA5231567B800E140CE /* LaundryBookingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF61AA4231567B800E140CE /* LaundryBookingAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EF61A96231567B800E140CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EF61A76231567B700E140CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EF61A7D231567B700E140CE;
+			remoteInfo = LaundryBookingApp;
+		};
+		4EF61AA1231567B800E140CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EF61A76231567B700E140CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EF61A7D231567B700E140CE;
+			remoteInfo = LaundryBookingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EF61A7E231567B700E140CE /* LaundryBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF61A81231567B700E140CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EF61A83231567B700E140CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EF61A89231567B700E140CE /* LaundryBookingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LaundryBookingApp.xcdatamodel; sourceTree = "<group>"; };
+		4EF61A8B231567B800E140CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EF61A8E231567B800E140CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EF61A90231567B800E140CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF61A95231567B800E140CE /* LaundryBookingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaundryBookingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF61A99231567B800E140CE /* LaundryBookingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryBookingAppTests.swift; sourceTree = "<group>"; };
+		4EF61A9B231567B800E140CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF61AA0231567B800E140CE /* LaundryBookingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaundryBookingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF61AA4231567B800E140CE /* LaundryBookingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryBookingAppUITests.swift; sourceTree = "<group>"; };
+		4EF61AA6231567B800E140CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EF61A7B231567B700E140CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF61A92231567B800E140CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF61A9D231567B800E140CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EF61A75231567B700E140CE = {
+			isa = PBXGroup;
+			children = (
+				4EF61A80231567B700E140CE /* LaundryBookingApp */,
+				4EF61A98231567B800E140CE /* LaundryBookingAppTests */,
+				4EF61AA3231567B800E140CE /* LaundryBookingAppUITests */,
+				4EF61A7F231567B700E140CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EF61A7F231567B700E140CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EF61A7E231567B700E140CE /* LaundryBookingApp.app */,
+				4EF61A95231567B800E140CE /* LaundryBookingAppTests.xctest */,
+				4EF61AA0231567B800E140CE /* LaundryBookingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EF61A80231567B700E140CE /* LaundryBookingApp */ = {
+			isa = PBXGroup;
+			children = (
+				4EF61A81231567B700E140CE /* AppDelegate.swift */,
+				4EF61A83231567B700E140CE /* ViewController.swift */,
+				4EF61A8B231567B800E140CE /* Assets.xcassets */,
+				4EF61A8D231567B800E140CE /* LaunchScreen.storyboard */,
+				4EF61A90231567B800E140CE /* Info.plist */,
+				4EF61A88231567B700E140CE /* LaundryBookingApp.xcdatamodeld */,
+			);
+			path = LaundryBookingApp;
+			sourceTree = "<group>";
+		};
+		4EF61A98231567B800E140CE /* LaundryBookingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EF61A99231567B800E140CE /* LaundryBookingAppTests.swift */,
+				4EF61A9B231567B800E140CE /* Info.plist */,
+			);
+			path = LaundryBookingAppTests;
+			sourceTree = "<group>";
+		};
+		4EF61AA3231567B800E140CE /* LaundryBookingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EF61AA4231567B800E140CE /* LaundryBookingAppUITests.swift */,
+				4EF61AA6231567B800E140CE /* Info.plist */,
+			);
+			path = LaundryBookingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EF61A7D231567B700E140CE /* LaundryBookingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF61AA9231567B800E140CE /* Build configuration list for PBXNativeTarget "LaundryBookingApp" */;
+			buildPhases = (
+				4EF61A7A231567B700E140CE /* Sources */,
+				4EF61A7B231567B700E140CE /* Frameworks */,
+				4EF61A7C231567B700E140CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaundryBookingApp;
+			productName = LaundryBookingApp;
+			productReference = 4EF61A7E231567B700E140CE /* LaundryBookingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EF61A94231567B800E140CE /* LaundryBookingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF61AAC231567B800E140CE /* Build configuration list for PBXNativeTarget "LaundryBookingAppTests" */;
+			buildPhases = (
+				4EF61A91231567B800E140CE /* Sources */,
+				4EF61A92231567B800E140CE /* Frameworks */,
+				4EF61A93231567B800E140CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EF61A97231567B800E140CE /* PBXTargetDependency */,
+			);
+			name = LaundryBookingAppTests;
+			productName = LaundryBookingAppTests;
+			productReference = 4EF61A95231567B800E140CE /* LaundryBookingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EF61A9F231567B800E140CE /* LaundryBookingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF61AAF231567B800E140CE /* Build configuration list for PBXNativeTarget "LaundryBookingAppUITests" */;
+			buildPhases = (
+				4EF61A9C231567B800E140CE /* Sources */,
+				4EF61A9D231567B800E140CE /* Frameworks */,
+				4EF61A9E231567B800E140CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EF61AA2231567B800E140CE /* PBXTargetDependency */,
+			);
+			name = LaundryBookingAppUITests;
+			productName = LaundryBookingAppUITests;
+			productReference = 4EF61AA0231567B800E140CE /* LaundryBookingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EF61A76231567B700E140CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ChhoengRamekh;
+				TargetAttributes = {
+					4EF61A7D231567B700E140CE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4EF61A94231567B800E140CE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4EF61A7D231567B700E140CE;
+					};
+					4EF61A9F231567B800E140CE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4EF61A7D231567B700E140CE;
+					};
+				};
+			};
+			buildConfigurationList = 4EF61A79231567B700E140CE /* Build configuration list for PBXProject "LaundryBookingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EF61A75231567B700E140CE;
+			productRefGroup = 4EF61A7F231567B700E140CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EF61A7D231567B700E140CE /* LaundryBookingApp */,
+				4EF61A94231567B800E140CE /* LaundryBookingAppTests */,
+				4EF61A9F231567B800E140CE /* LaundryBookingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EF61A7C231567B700E140CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF61A8F231567B800E140CE /* LaunchScreen.storyboard in Resources */,
+				4EF61A8C231567B800E140CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF61A93231567B800E140CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF61A9E231567B800E140CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EF61A7A231567B700E140CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF61A84231567B700E140CE /* ViewController.swift in Sources */,
+				4EF61A8A231567B700E140CE /* LaundryBookingApp.xcdatamodeld in Sources */,
+				4EF61A82231567B700E140CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF61A91231567B800E140CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF61A9A231567B800E140CE /* LaundryBookingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF61A9C231567B800E140CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF61AA5231567B800E140CE /* LaundryBookingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EF61A97231567B800E140CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EF61A7D231567B700E140CE /* LaundryBookingApp */;
+			targetProxy = 4EF61A96231567B800E140CE /* PBXContainerItemProxy */;
+		};
+		4EF61AA2231567B800E140CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EF61A7D231567B700E140CE /* LaundryBookingApp */;
+			targetProxy = 4EF61AA1231567B800E140CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EF61A8D231567B800E140CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EF61A8E231567B800E140CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EF61AA7231567B800E140CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EF61AA8231567B800E140CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EF61AAA231567B800E140CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaundryBookingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smartlaundry.com.laundrybookingapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EF61AAB231567B800E140CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaundryBookingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smartlaundry.com.laundrybookingapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EF61AAD231567B800E140CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaundryBookingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smartlaundry.com.LaundryBookingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaundryBookingApp.app/LaundryBookingApp";
+			};
+			name = Debug;
+		};
+		4EF61AAE231567B800E140CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaundryBookingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smartlaundry.com.LaundryBookingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaundryBookingApp.app/LaundryBookingApp";
+			};
+			name = Release;
+		};
+		4EF61AB0231567B800E140CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaundryBookingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smartlaundry.com.LaundryBookingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaundryBookingApp;
+			};
+			name = Debug;
+		};
+		4EF61AB1231567B800E140CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaundryBookingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smartlaundry.com.LaundryBookingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaundryBookingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EF61A79231567B700E140CE /* Build configuration list for PBXProject "LaundryBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF61AA7231567B800E140CE /* Debug */,
+				4EF61AA8231567B800E140CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF61AA9231567B800E140CE /* Build configuration list for PBXNativeTarget "LaundryBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF61AAA231567B800E140CE /* Debug */,
+				4EF61AAB231567B800E140CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF61AAC231567B800E140CE /* Build configuration list for PBXNativeTarget "LaundryBookingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF61AAD231567B800E140CE /* Debug */,
+				4EF61AAE231567B800E140CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF61AAF231567B800E140CE /* Build configuration list for PBXNativeTarget "LaundryBookingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF61AB0231567B800E140CE /* Debug */,
+				4EF61AB1231567B800E140CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4EF61A88231567B700E140CE /* LaundryBookingApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4EF61A89231567B700E140CE /* LaundryBookingApp.xcdatamodel */,
+			);
+			currentVersion = 4EF61A89231567B700E140CE /* LaundryBookingApp.xcdatamodel */;
+			path = LaundryBookingApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4EF61A76231567B700E140CE /* Project object */;
+}
